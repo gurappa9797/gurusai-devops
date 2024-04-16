@@ -35,5 +35,5 @@ stages:
     - task: PublishBuildArtifacts@1
       inputs:
         PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        ArtifactName: 'terraform-manifests'
-        publishLocation: 'Container'  
+        ArtifactName: '32-Azure-IaC-DevOps/Git-Repo-Files/terraform-manifests'
+        publishLocation: 'Container'
